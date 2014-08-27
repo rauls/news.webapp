@@ -1,0 +1,100 @@
+/* liScroll styles */
+
+._tickeroverlay-left{
+	background-image:url('left.png');
+	display:block;
+	pointer-events:none;
+	position:absolute;
+	z-index:30;
+	height:22px;
+	width:150px;
+	top:0;
+	left:-2px;
+}
+	
+._tickeroverlay-right{
+	background-image:url('right.png');
+	display:block;
+	pointer-events:none;
+	position:absolute;
+	z-index:30;
+	height:22px;
+	width:150px;
+	top:0px;
+	right:-2px;
+}
+
+.tickercontainer { /* the outer div */
+background: #000; 
+width: 1238px; 
+height: 37px; 
+margin: 0; 
+padding: 0;
+overflow: hidden; 
+}
+
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+padding-left: 10px;
+padding-right: 10px;
+top: 8px;
+height: 28px;
+/*width: 718px;*/
+overflow: hidden;
+}
+
+ul.newsticker { /* that's your list */
+position: relative;
+margin-left: 20px;
+font: bold 20px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0;
+/*Transitions have been added in order set css3 transitions; and have linear easing. Changing these lines you might have unexpected results */
+-webkit-transition: all 0s linear;
+-moz-transition: all 0s linear;
+-o-transition: all 0s linear;
+transition: all 0s linear;
+}
+
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-right: 15px;
+/*background: #fff;*/
+}
+
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+color: #ffffff;
+font: bold 20px Verdana;
+margin: 0 50px 0 0;
+} 
+
+ul.newsticker span {
+margin: 0 20px 0 0;
+} 
+
+#webticker2{
+	float:right;
+}
+
+#webticker2 li {
+float: right; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-left: 15px;
+/*background: #fff;*/
+}
+
+img.logo {
+	align: vertical;
+	padding-right: 30px;
+}
+
+
+
+
+
+
+}
