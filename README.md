@@ -15,7 +15,7 @@ Its a Super News Ticker, showing 5 or more news items, depending on your choice.
 
 And you will see by default 5 rows.
 
-![alt text](image.jpg "Screen")
+![alt text](screen.jpg "Screen")
 
 
 
