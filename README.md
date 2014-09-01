@@ -18,7 +18,7 @@ And you will see by default 5 rows.
 ![alt text](screen.jpg "Screen")
 
 ## Try it
-It is running now on Google , <A HREF="hale-monument-690.appspot.com">run it now</A>.
+It is running now on Google , <A HREF="http://hale-monument-690.appspot.com">run it now</A>.
 
 
 ## LICENSE
