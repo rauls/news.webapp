@@ -1,0 +1,26 @@
+application: hale-monument-690
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: \1
+  upload: (.*\.css)
+
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: \1
+  upload: (.*\.html)
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: \1
+  upload: (.*\.js)
+
+- url: /geturl.php
+  script: geturl.php
+
+- url: /.*
+  script: multinews.php

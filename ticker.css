@@ -38,7 +38,7 @@ position: relative;
 padding-left: 10px;
 padding-right: 10px;
 top: 8px;
-height: 28px;
+height: 37px;
 /*width: 718px;*/
 overflow: hidden;
 }
@@ -66,10 +66,11 @@ padding-right: 15px;
 
 ul.newsticker a {
 white-space: nowrap;
-padding: 0;
+padding: 1;
 color: #ffffff;
-font: bold 20px Verdana;
+font: 20px Verdana;
 margin: 0 50px 0 0;
+text-decoration: none;
 } 
 
 ul.newsticker span {
